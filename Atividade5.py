@@ -11,10 +11,27 @@
 #     51.0 ºF | 10.556 ºC
 #     ...
 #     80.0 ºF | 26.667 ºC                 
+print("Fahrenheit", "|" , "Celsius")               
 
+for fahrenheit in range (45,81,1):
+    celsius= 5/9 * (fahrenheit - 32)
+    print (fahrenheit, "        |" , f"{celsius:.2f}")
+  
 # 2. Melhore o programa anterior para torná-lo mais abrangente. Agora, o usuário fornecerá os valores inicial e final de graus Fahrenheit. Calcule a conversão e gere o relatório de saída tabular (em forma de tabela) considerando o intervalo digitado. 
 # Gere o relatório na ordem crescente, se o valor inicial for menor ou igual ao valor final. E na ordem decrescente, se valor inicial for maior que o valor final.
-
+a= int(input("Digite o valor inicial da temperatura em fahrenheit: "))
+b= int(input("Digite o valor final da temperatura em fahrenheit: "))
+if a<=b:
+    for fahrenheit in range (a,b,1):
+        celsius= 5/9 * (fahrenheit - 32)
+        print (fahrenheit, "        |" , f"{celsius:.2f}")
+elif a==b:
+    print("Os valores são iguais!")
+else:
+    for fahrenheit in range (a,b-1,-1):
+        celsius= 5/9 * (fahrenheit - 32)
+        print (fahrenheit, "        |" , f"{celsius:.2f}") 
+      
 # 3. Elabore o programa para somar todos os números inteiros que se encontram no intervalo de um a quinhentos.
 
 # 4. Elabore o programa para somar todos os números inteiros que são ao mesmo tempo ímpar e múltiplo de três que se encontram no intervalo de um a quinhentos.
