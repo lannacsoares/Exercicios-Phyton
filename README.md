@@ -1,11 +1,21 @@
-# 🔁 Atividade de Lógica de Programação com for em Python
+# 🐍 Repositório de Exercícios de Lógica com Python
+Bem-vindo(a) ao repositório de exercícios de Python voltados para o aprendizado de lógica de programação! Este projeto foi criado com o objetivo de ajudar iniciantes a desenvolver o raciocínio lógico através da prática com a linguagem Python.
 
-Bem-vindo(a)! Esta atividade tem como foco o uso exclusivo do laço de repetição for para resolver problemas de lógica de programação na linguagem Python.
+### 📚 Objetivo
 
-🎯 **Objetivos**
+Este repositório contém uma coleção de exercícios organizados por dificuldade e tema. Eles foram pensados para:
 
-* Compreender e aplicar o laço for em diferentes situações.
+* Desenvolver a lógica de programação
 
-* Desenvolver o raciocínio lógico utilizando estruturas de repetição.
+* Praticar estruturas básicas do Python 
 
-* Praticar iteração com listas, intervalos numéricos e strings.
+* Estimular a resolução de problemas de forma progressiva
+
+### 🧠 Público-alvo
+Este conteúdo é ideal para:
+
+* Iniciantes em programação
+
+* Estudantes de cursos técnicos, universitários ou autodidatas
+
+* Pessoas que desejam reforçar a base lógica antes de avançar para tópicos mais complexos
